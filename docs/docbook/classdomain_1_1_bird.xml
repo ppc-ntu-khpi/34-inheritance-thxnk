@@ -1,0 +1,224 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classdomain_1_1_bird" xml:lang="en-US">
+<title>domain.Bird Class Reference</title>
+<indexterm><primary>domain.Bird</primary></indexterm>
+<para>Inheritance diagram for domain.Bird:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classdomain_1_1_bird.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classdomain_1_1_bird_1a1d979faa6195e152b49603be8a259f25">Bird</link> (int <link linkend="_classdomain_1_1_animal_1a726752b300deaf898df2dd944fce8659">age</link>, double <link linkend="_classdomain_1_1_animal_1a08ab09b3fa2274972b39dd1ea7561d39">weight</link>, String <link linkend="_classdomain_1_1_animal_1aa404f820cb6a0fdfb51dc488a8c9f871">name</link>, String <link linkend="_classdomain_1_1_animal_1a73bf2fea8716ec36258e32d76058e00f">animalClass</link>, boolean haveAnOwner)</para>
+</listitem>
+            <listitem><para><link linkend="_classdomain_1_1_bird_1a9f2a134ea8eb49ae196629ec368234bd">Bird</link> (String <link linkend="_classdomain_1_1_animal_1aa404f820cb6a0fdfb51dc488a8c9f871">name</link>)</para>
+</listitem>
+            <listitem><para>void <link linkend="_classdomain_1_1_bird_1abede755ab707cf2a7b311fc4ff97b543">sing</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_classdomain_1_1_bird_1ad060bf9342c04ffc54db2110dd68e38d">hunt</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_classdomain_1_1_bird_1a4102ef3fffae4c27a38a9badd5d44aa6">fly</link> ()</para>
+</listitem>
+            <listitem><para>String <link linkend="_classdomain_1_1_bird_1a086877a92ea17cf5b8aa3cc211023bcd">toString</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_classdomain_1_1_bird_1a040e59112c789ee491db48e6cb565f71">sleep</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_classdomain_1_1_bird_1abb4641b98c01f2c13425b0ce40d299c7">eat</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_classdomain_1_1_bird_1a45c22647b79bf306d25c7fda2bb22c70">rest</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Additional Inherited Members    </title>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>The class <link linkend="_classdomain_1_1_bird">Bird</link> extends predator </para>
+<para>
+Definition at line 7 of file Bird.java.</para>
+</section>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_classdomain_1_1_bird_1a1d979faa6195e152b49603be8a259f25"/>    <section>
+    <title>Bird()<computeroutput>[1/2]</computeroutput></title>
+<indexterm><primary>Bird</primary><secondary>domain.Bird</secondary></indexterm>
+<indexterm><primary>domain.Bird</primary><secondary>Bird</secondary></indexterm>
+<para><computeroutput>domain.Bird.Bird (int age, double weight, String name, String animalClass, boolean haveAnOwner)</computeroutput></para>
+<para><link linkend="_classdomain_1_1_bird">Bird</link></para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters                    </title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>age</entry>
+                                <entry>
+<para>the age </para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>weight</entry>
+                                <entry>
+<para>the weight </para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>name</entry>
+                                <entry>
+<para>the name </para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>animalClass</entry>
+                                <entry>
+<para>the animal class </para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>haveAnOwner</entry>
+                                <entry>
+<para>the have an owner </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>public </para>
+</formalpara>
+</para>
+<para>
+Definition at line 23 of file Bird.java.</para>
+    </section><anchor xml:id="_classdomain_1_1_bird_1a9f2a134ea8eb49ae196629ec368234bd"/>    <section>
+    <title>Bird()<computeroutput>[2/2]</computeroutput></title>
+<indexterm><primary>Bird</primary><secondary>domain.Bird</secondary></indexterm>
+<indexterm><primary>domain.Bird</primary><secondary>Bird</secondary></indexterm>
+<para><computeroutput>domain.Bird.Bird (String name)</computeroutput></para>
+<para><link linkend="_classdomain_1_1_bird">Bird</link></para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters                    </title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>name</entry>
+                                <entry>
+<para>the name </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>public </para>
+</formalpara>
+</para>
+<para>
+Definition at line 40 of file Bird.java.</para>
+</section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classdomain_1_1_bird_1abb4641b98c01f2c13425b0ce40d299c7"/>    <section>
+    <title>eat()</title>
+<indexterm><primary>eat</primary><secondary>domain.Bird</secondary></indexterm>
+<indexterm><primary>domain.Bird</primary><secondary>eat</secondary></indexterm>
+<para><computeroutput>void domain.Bird.eat ( )</computeroutput></para>
+<para>Eat </para>
+<para>
+Reimplemented from <link linkend="_classdomain_1_1_animal_1aeb4cdcb2e2faa803e125dea86486e474">domain.Animal</link>.</para>
+<para>
+Definition at line 112 of file Bird.java.</para>
+    </section><anchor xml:id="_classdomain_1_1_bird_1a4102ef3fffae4c27a38a9badd5d44aa6"/>    <section>
+    <title>fly()</title>
+<indexterm><primary>fly</primary><secondary>domain.Bird</secondary></indexterm>
+<indexterm><primary>domain.Bird</primary><secondary>fly</secondary></indexterm>
+<para><computeroutput>void domain.Bird.fly ( )</computeroutput></para>
+<para>Fly </para>
+<para>
+Reimplemented from <link linkend="_classdomain_1_1_predator_1ab335fad2869ca805b586f9b06a5ae0ee">domain.Predator</link>.</para>
+<para>
+Definition at line 75 of file Bird.java.</para>
+    </section><anchor xml:id="_classdomain_1_1_bird_1ad060bf9342c04ffc54db2110dd68e38d"/>    <section>
+    <title>hunt()</title>
+<indexterm><primary>hunt</primary><secondary>domain.Bird</secondary></indexterm>
+<indexterm><primary>domain.Bird</primary><secondary>hunt</secondary></indexterm>
+<para><computeroutput>void domain.Bird.hunt ( )</computeroutput></para>
+<para>Hunt </para>
+<para>
+Reimplemented from <link linkend="_classdomain_1_1_predator_1ad00b41c1e8b3652e62fe8f365d3a737a">domain.Predator</link>.</para>
+<para>
+Definition at line 63 of file Bird.java.</para>
+    </section><anchor xml:id="_classdomain_1_1_bird_1a45c22647b79bf306d25c7fda2bb22c70"/>    <section>
+    <title>rest()</title>
+<indexterm><primary>rest</primary><secondary>domain.Bird</secondary></indexterm>
+<indexterm><primary>domain.Bird</primary><secondary>rest</secondary></indexterm>
+<para><computeroutput>void domain.Bird.rest ( )</computeroutput></para>
+<para>Rest </para>
+<para>
+Reimplemented from <link linkend="_classdomain_1_1_animal_1ac3548d61a5c3129c85c3c052b649466e">domain.Animal</link>.</para>
+<para>
+Definition at line 124 of file Bird.java.</para>
+    </section><anchor xml:id="_classdomain_1_1_bird_1abede755ab707cf2a7b311fc4ff97b543"/>    <section>
+    <title>sing()</title>
+<indexterm><primary>sing</primary><secondary>domain.Bird</secondary></indexterm>
+<indexterm><primary>domain.Bird</primary><secondary>sing</secondary></indexterm>
+<para><computeroutput>void domain.Bird.sing ( )</computeroutput></para>
+<para>Sing </para>
+<para>
+Definition at line 51 of file Bird.java.</para>
+    </section><anchor xml:id="_classdomain_1_1_bird_1a040e59112c789ee491db48e6cb565f71"/>    <section>
+    <title>sleep()</title>
+<indexterm><primary>sleep</primary><secondary>domain.Bird</secondary></indexterm>
+<indexterm><primary>domain.Bird</primary><secondary>sleep</secondary></indexterm>
+<para><computeroutput>void domain.Bird.sleep ( )</computeroutput></para>
+<para>Sleep </para>
+<para>
+Reimplemented from <link linkend="_classdomain_1_1_animal_1ad168ff1deb4cf3e0628fa8ed6bdacc30">domain.Animal</link>.</para>
+<para>
+Definition at line 100 of file Bird.java.</para>
+    </section><anchor xml:id="_classdomain_1_1_bird_1a086877a92ea17cf5b8aa3cc211023bcd"/>    <section>
+    <title>toString()</title>
+<indexterm><primary>toString</primary><secondary>domain.Bird</secondary></indexterm>
+<indexterm><primary>domain.Bird</primary><secondary>toString</secondary></indexterm>
+<para><computeroutput>String domain.Bird.toString ( )</computeroutput></para>
+<para>To string</para>
+
+<para><formalpara><title>Returns</title>
+
+<para>String </para>
+</formalpara>
+</para>
+<para>
+Reimplemented from <link linkend="_classdomain_1_1_animal_1a1b29e1c4522c9593ac169ea0b113fa07">domain.Animal</link>.</para>
+<para>
+Definition at line 88 of file Bird.java.</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/Users/boss/Desktop/ООП/ToClone/34-inheritance-thxnk/src/domain/<link linkend="__bird_8java">Bird.java</link></section>
+</section>
