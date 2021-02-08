@@ -1,10 +1,26 @@
 package domain;
 
+
+ /**
+ * The class Bird extends predator
+ */ 
 public class Bird extends Predator {
 
     private boolean haveAnOwner;
 
-    public Bird(int age, double weight, String name, String animalClass, boolean haveAnOwner) {
+
+/** 
+ *
+ * a constructor
+ *
+ * @param age  the age
+ * @param weight  the weight
+ * @param name  the name
+ * @param animalClass  the animal class
+ * @param haveAnOwner  the have an owner
+ */
+    public Bird(int age, double weight, String name, String animalClass, boolean haveAnOwner) { 
+
         this.age = age;
         this.weight = weight;
         this.name = name;
@@ -12,46 +28,99 @@ public class Bird extends Predator {
         this.haveAnOwner = haveAnOwner;
     }
 
-    public Bird(String name) {
+
+/** 
+ *
+ * a common construtor with only name
+ *
+ * @param name  the name
+ */
+    public Bird(String name) { 
+
         this(3,2.3,name,"home bird",true);
     }
-        
-
-    public void play() {
-        System.out.println("Bird is playing...");
-    }
     
-    public void sing() {
+
+/** 
+ *
+ * Sing
+ *
+ */
+    public void sing() { 
+
         System.out.println("Bird is singing...");
     }
      
     @Override
-    public void hunt() {
+
+/** 
+ *
+ * Hunt
+ *
+ */
+    public void hunt() { 
+
         System.out.println("Bird is hunting for a smth it can eat...");
     }
     
     @Override
-    public void fly() {
+
+/** 
+ *
+ * Fly
+ *
+ */
+    public void fly() { 
+
         System.out.println("Bird is flying...");
     }
 
     @Override
-    public String toString() {
+
+/** 
+ *
+ * To string
+ *
+ * @return String
+ */
+    public String toString() { 
+
         return super.toString()+"\nhaveAnOwner:\t"+this.haveAnOwner;
     }
 
     @Override
-    public void sleep() {
+
+/** 
+ *
+ * Sleep
+ *
+ */
+    public void sleep() { 
+
         System.out.println("Bird is sleeping...");
     }
 
     @Override
-    public void eat() {
+
+/** 
+ *
+ * Eat
+ *
+ */
+    public void eat() { 
+
         System.out.println("Bird is eating...");
     }
     
     @Override
-    public void rest() {
+
+/** 
+ *
+ * Rest
+ *
+ */
+    public void rest() { 
+
         System.out.println("Bird is resting...");
     }
     
